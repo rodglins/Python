@@ -1,18 +1,18 @@
 """
 endereco = "avenida paulista, 100 sao paulo"
-resultado = Geocoder('AIzaSyCKifeG7c5OiA_6A1UITwRkHJIqocTCKV8').geocode(endereco)
+resultado = Geocoder('digiteAquigeocodeGoogleCloud').geocode(endereco)
 print(resultado)
 
 endereco = "avenida paulista, 100 sao paulo"
-resultado = Geocoder('AIzaSyCKifeG7c5OiA_6A1UITwRkHJIqocTCKV8').geocode(endereco).postalcode
+resultado = Geocoder('keygooglecloud').geocode(endereco).postalcode
 print(resultado)
 
 endereco = "avenida paulista, 100 sao paulo"
-resultado = Geocoder('AIzaSyCKifeG7c5OiA_6A1UITwRkHJIqocTCKV8').geocode(endereco).country
+resultado = Geocoder('keygooglecloud').geocode(endereco).country
 print(resultado)
 
 endereco = "avenida paulista, 100 sao paulo"
-resultado = Geocoder('AIzaSyCKifeG7c5OiA_6A1UITwRkHJIqocTCKV8').geocode(endereco).coordinates
+resultado = Geocoder('keygooglecloud').geocode(endereco).coordinates
 print(resultado)
 
 """
@@ -20,6 +20,6 @@ print(resultado)
 from pygeocoder import Geocoder
 
 endereco = "avenida paulista, 100 sao paulo"
-resultado = Geocoder('AIzaSyCKifeG7c5OiA_6A1UITwRkHJIqocTCKV8').reverse_geocode(-23.570807, -46.6444668)
+resultado = Geocoder('keygooglecloud').reverse_geocode(-23.570807, -46.6444668)
 print(resultado)
 
