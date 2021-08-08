@@ -4,7 +4,7 @@ import socket
 # objeto de conexão
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-print('Cliente socket criado com sucesso.')
+print('Cliente: Socket criado com sucesso.')
 
 host = 'localhost' # host cliente
 porta = 5433 # porta cliente
