@@ -16,4 +16,9 @@ soup = BeautifulSoup(site, 'html.parser')
 temperatura = soup.find("span", class_="-gray-light")
 
 # transforma html em string
-print(temperatura.string)
+print('Temperatura mínima: ', temperatura.string)
+
+print(soup.title.string)
+print(soup.a)
+print(soup.p.string)
+print(soup.find('admin'))
