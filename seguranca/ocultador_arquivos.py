@@ -2,7 +2,7 @@
 # e permite funções de chamada em DLLs ou bibliotecas compartilhadas
 import ctypes
 
-pasta = input('Digite o caminho da pasta a ser ocultada')
+# pasta = input('Digite o caminho da pasta a ser ocultada ex: (C:/pasta): ')
 
 # passando atributos:
 # = hexadecimal
@@ -11,6 +11,7 @@ atributo_ocultar = 0x02
 # chamando a biblioteca ctypes a
 # dll para manipulação de arquivo e se torne oculto
 retorno = ctypes.windll.kernel32.SetFileAttributesW('ocultar.txt', atributo_ocultar)
+# retorno = ctypes.windll.kernel32.SetFileAttributesW(pasta, atributo_ocultar)
 
 if retorno:
     print('Arquivo foi ocultado')
