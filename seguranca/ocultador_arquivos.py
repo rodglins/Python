@@ -2,6 +2,8 @@
 # e permite funções de chamada em DLLs ou bibliotecas compartilhadas
 import ctypes
 
+pasta = input('Digite o caminho da pasta a ser ocultada')
+
 # passando atributos:
 # = hexadecimal
 atributo_ocultar = 0x02
