@@ -1,0 +1,11 @@
+LEIAME
+
+Notebook no Github:
+
+https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/ExploracaoDadosEDAlimpo.ipynb
+
+Dataframes:
+
+https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/gini.csv
+https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/rural.csv
+https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/urban.csv
