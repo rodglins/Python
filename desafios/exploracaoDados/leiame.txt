@@ -2,10 +2,23 @@ LEIAME
 
 Notebook no Github:
 
+Correções do envio anterior
 https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/ExploracaoDadosEDAlimpo.ipynb
 
-Dataframes:
+Modelo professor com dados novos:
+https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/Gapminder_WID_poderConsumo_industrializacao.ipynb
+
+
+Datasets:
 
 https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/gini.csv
+
 https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/rural.csv
+
 https://github.com/rodglins/Python/blob/master/desafios/exploracaoDados/urban.csv
+
+https://raw.githubusercontent.com/rodglins/Python/master/desafios/exploracaoDados/income_per_person_gdppercapita_ppp_inflation_adjusted.csv
+
+https://raw.githubusercontent.com/rodglins/Python/master/desafios/exploracaoDados/industry_percent_of_gdp.csv
+
+https://github.com/rodglins/Python/raw/master/desafios/exploracaoDados/WID_Data_03102021-152112.xls
